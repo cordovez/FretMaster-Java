@@ -1,7 +1,9 @@
-import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Arrays.deepToString(Fretboard.NOTES));
+        var randomNoteC = new Display().randomNoteKeyOfC();
+        var randomNote = new Display().randomNote();
+        var fretboard = new Display().drawFretboard();
+        System.out.println(fretboard);
     }
 }
