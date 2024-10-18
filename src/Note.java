@@ -8,16 +8,4 @@ public class Note {
         this.string = string;
         this.note = note;
     }
-
-//    public void setFret(int fret) {
-//        this.fret = fret;
-//    }
-//
-//    public void setString(int string) {
-//        this.string = string;
-//    }
-//
-//    public void setNote(String note) {
-//        this.note = note;
-//    }
 }

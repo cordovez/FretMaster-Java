@@ -1,9 +1,10 @@
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        var randomNoteC = new Display().randomNoteKeyOfC();
-        var randomNote = new Display().randomNote();
-        var fretboard = new Display().drawFretboard();
+        var scale = new Scale().keyOf("A", "minor");
+        var fretboard = new Display().scaleOnFretboard(scale);
+
         System.out.println(fretboard);
     }
 }
